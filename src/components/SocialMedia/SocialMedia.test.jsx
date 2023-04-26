@@ -48,8 +48,13 @@ describe('SocialMedia Component', () => {
     })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
+=======
+
+
+>>>>>>> 8de682a (updated the responsiveness, test file, and name in registeredComponent)
 })

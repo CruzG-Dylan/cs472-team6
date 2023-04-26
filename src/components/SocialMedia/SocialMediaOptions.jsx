@@ -1,11 +1,14 @@
 import { Gradients } from "../../utils/utils";
-import { SocialOptions } from "./SocialMediaComponent";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 export default function SocialMediaOption({options, updateComponent}){
 =======
 export default function SmOptions({options, updateComponent}){
 >>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
+=======
+export default function SocialMediaOption({options, updateComponent}){
+>>>>>>> 8de682a (updated the responsiveness, test file, and name in registeredComponent)
     let {title, body, image, gradient, socials, socialCount} = options;
 
     function handleChange(e) {
@@ -52,6 +55,7 @@ function SocialMediaOptions({social, index, handleSocialChange}) {
     return (
         <div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <label className="block">Icon {index + 1} Image Link:</label>
             <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="image" value={image} onChange={e => handleSocialChange(index, e)} />
             <label className="block">Reference {index + 1} Link:</label>
@@ -60,6 +64,11 @@ function SocialMediaOptions({social, index, handleSocialChange}) {
             <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="image" value={image} onChange={e => handleSocialChange(index, e)} />
             <label className="block">Link {index + 1}:</label>
 >>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
+=======
+            <label className="block">Icon {index + 1} Image Link:</label>
+            <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="image" value={image} onChange={e => handleSocialChange(index, e)} />
+            <label className="block">Reference {index + 1} Link:</label>
+>>>>>>> 8de682a (updated the responsiveness, test file, and name in registeredComponent)
             <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="link" value={link} onChange={e => handleSocialChange(index, e)} />
             
         </div>
