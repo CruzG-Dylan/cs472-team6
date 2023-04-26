@@ -1,6 +1,11 @@
 import { Gradients } from "../../utils/utils";
+import { SocialOptions } from "./SocialMediaComponent";
 
+<<<<<<< HEAD
 export default function SocialMediaOption({options, updateComponent}){
+=======
+export default function SmOptions({options, updateComponent}){
+>>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
     let {title, body, image, gradient, socials, socialCount} = options;
 
     function handleChange(e) {
@@ -46,9 +51,15 @@ function SocialMediaOptions({social, index, handleSocialChange}) {
     const {image, link} = social;
     return (
         <div>
+<<<<<<< HEAD
             <label className="block">Icon {index + 1} Image Link:</label>
             <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="image" value={image} onChange={e => handleSocialChange(index, e)} />
             <label className="block">Reference {index + 1} Link:</label>
+=======
+            <label className="block">Image {index + 1}:</label>
+            <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="image" value={image} onChange={e => handleSocialChange(index, e)} />
+            <label className="block">Link {index + 1}:</label>
+>>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
             <input className={'block mb-3 p-2 rounded-lg bg-gray-200'} type="text" name="link" value={link} onChange={e => handleSocialChange(index, e)} />
             
         </div>
