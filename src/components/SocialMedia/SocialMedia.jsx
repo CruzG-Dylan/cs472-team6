@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 export default function SocialMedia({options}) {
+=======
+// import React, {useState} from "React"
+export default function Sm({options}) {
+>>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
     let {title, body, image, gradient, socials, socialCount} = options;
 
     return (
