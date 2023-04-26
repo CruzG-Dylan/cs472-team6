@@ -12,7 +12,7 @@ export class SocialOptions {
 }
 
 export const SocialMediaComponent = new Component(
-    'SocialMedia', 
+    'Social Media', 
     SocialMedia, 
     SocialMediaOptions, 
     SocialMediaPreview, 
