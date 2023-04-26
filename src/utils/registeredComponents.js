@@ -52,7 +52,7 @@ export const registeredComponents = new Map([
         }
       )
     ],
-    ['SocialMedia', SocialMediaComponent],
+    ['Social Media', SocialMediaComponent],
     ['Four Zero Four', FourZeroFourComponent],
     ['FAQ', faqComponent],
     ['ContactSection', contactSectionComponent],

@@ -1,5 +1,4 @@
-// import React, {useState} from "React"
-export default function Sm({options}) {
+export default function SocialMedia({options}) {
     let {title, body, image, gradient, socials, socialCount} = options;
 
     return (
