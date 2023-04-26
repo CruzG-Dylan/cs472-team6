@@ -60,31 +60,4 @@ describe('SocialMedia Component', () => {
         expect(BehanceL.props.value).toEqual(options.BhLink)
     })
 
-    // it('SocialMedia handleChange function', () =>{
-    //     const TestOptions={
-    //         title: "Test Title", body: "Test Body", 
-    //         image: "https://i.imgur.com/TY7YztC.png", gradient: Gradients['green-blue'],
-    //         FbLink: "https://google.com", LiLink: "https://google.com", 
-    //         TwLink: "https://www.bing.com/", InLink: "https://www.bing.com/",
-    //         DrLink: "https://www.yahoo.com/", BhLink: "https://www.yahoo.com/"
-    //     }
-    //     let SocialMediaComponent = registeredComponents.get('SocialMedia');
-    //     let OptionsComponent = SocialMediaComponent.optionsComponent;
-    //     let defaultOptions = SocialMediaComponent.defaultOptions;
-
-    //     const component = renderer.create(
-    //         <OptionsComponent options={options} updateComponent={(change) =>
-    //         expect(JSON.stringify(change)).eq(JSON.stringify(TestOptions))}    
-    //         />
-    //     )
-    //     let handleChange = component.toTree().rendered.rendered.rendered[1].props.onChange;
-
-    //     handleChange({
-    //         target: {
-    //             name: 'text',
-    //             value: Gradients['green-blue']
-    //         }
-    //     })
-            
-    // })
 })
