@@ -47,6 +47,9 @@ describe('SocialMedia Component', () => {
         expect(optionsJSON.props.value).eq(options.image)
     })
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f67201e (updated the responsiveness and added the ability to change icons)
 })
