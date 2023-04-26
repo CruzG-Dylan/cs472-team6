@@ -47,4 +47,6 @@ describe('SocialMedia Component', () => {
         expect(optionsJSON.props.value).eq(options.image)
     })
 
+
+
 })

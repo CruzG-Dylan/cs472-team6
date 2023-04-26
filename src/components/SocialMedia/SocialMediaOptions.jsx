@@ -1,5 +1,4 @@
 import { Gradients } from "../../utils/utils";
-import { SocialOptions } from "./SocialMediaComponent";
 
 export default function SocialMediaOption({options, updateComponent}){
     let {title, body, image, gradient, socials, socialCount} = options;
