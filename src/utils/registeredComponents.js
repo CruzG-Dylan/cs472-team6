@@ -35,7 +35,7 @@ export const registeredComponents = new Map([
     ['Stats Section', StatsWrapperComponent],
     ['Education and Work', EducationAndWorkComponent],
     ['Skills', SkillsComponent],
-    ['SocialMedia', SocialMediaComponent],
+    ['Social Media', SocialMediaComponent],
     ['Four Zero Four', FourZeroFourComponent],
     ['FAQ', faqComponent],
     ['ContactSection', contactSectionComponent],
