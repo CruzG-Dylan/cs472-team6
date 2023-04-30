@@ -1,5 +1,5 @@
 export default function SocialMedia({options}) {
-    let {title, body, image, gradient, socials, socialCount} = options;
+    let {title, body, imageUrl, gradient, socials, socialCount} = options;
 
     return (
 
@@ -12,14 +12,14 @@ export default function SocialMedia({options}) {
                 <div className="lg:h-[720px] lg:w-[720px] 
                                 md:w-[640px] md:h-[640px] 
                                 w-[340px] h-[340px] left" >
-                    <img src={image}></img>
+                    <img src={imageUrl}></img>
                 </div>   
                 <div className="">
                     <div className="text-2xl md:text-7xl bg-black text-white dark:bg-white dark:text-black 
                                     w-[292px] h-[270px] md:w-[480px] md:h-[301px]
                                     absolute 
                                     lg:-right-1/2 lg:top-1/4
-                                    md:-right-[250px]              md:top-1/4
+                                    md:-right-[250px] md:border-collapse md:top-1/4
                                     right-6 -bottom-[220px]">
                         <div className={`mx-10 pt-12 pb-6 whitespace-nowrap font-main 
                                         text-transparent bg-clip-text text-[32px] 
@@ -47,12 +47,12 @@ export default function SocialMedia({options}) {
 }
 
 function Social({social}) {
-    const {image, link} = social;
+    const {imagelink, link} = social;
     return (
         <a className={`md:h-[24px] md:w-[24px]
                        h-[22px] w-[22px]`} href={link}>
         <img className={`md:h-[24px] md:w-[24px]
-                         h-[22px] w-[22px]`} src={image}></img>
+                         h-[22px] w-[22px]`} src={imagelink}></img>
         </a>
     )
 }

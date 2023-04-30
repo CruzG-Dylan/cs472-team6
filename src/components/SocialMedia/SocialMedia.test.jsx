@@ -7,16 +7,16 @@ import SocialMediaOption from './SocialMediaOptions';
 
 let options = {
     title: "Follow Me", body: "Im Katrik Bansal, a designer who works with startups to build brands.", 
-    image: "Social Media", gradient: Gradients.default,
+    imageUrl: "Social Media", gradient: Gradients.default,
     socials: [
         {
-            image: "",
+            imagelink: "",
             link: ""
         } 
     ]
 }
 
-describe('SocialMedia Component', () => {
+describe('SocialMedia Component', () => {imaglink
     it('Text renders', () => {
         
         
@@ -44,7 +44,7 @@ describe('SocialMedia Component', () => {
         let optionsJSON = component.toJSON().children[7];
         
 
-        expect(optionsJSON.props.value).eq(options.image)
+        expect(optionsJSON.props.value).eq(options.imageUrl)
     })
 
 })
