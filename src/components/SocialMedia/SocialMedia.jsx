@@ -30,7 +30,7 @@ export default function SocialMedia({options}) {
                             {body}
                         </div>
                         {/* divider */}
-                        <hr class="h-px my-3 md:my-10 mx-10 border-1 bg-white dark:bg-black"></hr>
+                        <hr className="h-px my-3 md:my-10 mx-10 border-1 bg-white dark:bg-black"></hr>
                         {/* social media icons */}
                         <div className="mx-10 grid grid-flow-col-dense">
                         {socials.slice(0,socialCount).map((social, index) => {
