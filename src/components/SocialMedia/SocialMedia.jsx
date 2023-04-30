@@ -19,7 +19,7 @@ export default function SocialMedia({options}) {
                                     w-[292px] h-[270px] md:w-[480px] md:h-[301px]
                                     absolute 
                                     lg:-right-1/2 lg:top-1/4
-                                    md:-right-[250px] md:border-collapse md:top-1/4
+                                    md:-right-[250px] md:top-1/4
                                     right-6 -bottom-[220px]">
                         <div className={`mx-10 pt-12 pb-6 whitespace-nowrap font-main 
                                         text-transparent bg-clip-text text-[32px] 

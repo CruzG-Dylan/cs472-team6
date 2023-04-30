@@ -16,7 +16,7 @@ let options = {
     ]
 }
 
-describe('SocialMedia Component', () => {imaglink
+describe('SocialMedia Component', () => {
     it('Text renders', () => {
         
         
@@ -44,7 +44,7 @@ describe('SocialMedia Component', () => {imaglink
         let optionsJSON = component.toJSON().children[7];
         
 
-        expect(optionsJSON.props.value).eq(options.imageUrl)
+        expect(optionsJSON.props.value).eq(options.imagelink)
     })
 
 })
